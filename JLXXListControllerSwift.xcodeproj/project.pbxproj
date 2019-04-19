@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A0B4ED2268A330000F9D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B4EC2268A330000F9D2B /* AppDelegate.swift */; };
+		18A0B4EF2268A330000F9D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B4EE2268A330000F9D2B /* ViewController.swift */; };
+		18A0B4F22268A330000F9D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B4F02268A330000F9D2B /* Main.storyboard */; };
+		18A0B4F42268A331000F9D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B4F32268A331000F9D2B /* Assets.xcassets */; };
+		18A0B4F72268A331000F9D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B4F52268A331000F9D2B /* LaunchScreen.storyboard */; };
+		18A0B50D2268A375000F9D2B /* JLXXCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5002268A375000F9D2B /* JLXXCollectionViewController.swift */; };
+		18A0B50E2268A375000F9D2B /* CollectionViewDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5012268A375000F9D2B /* CollectionViewDataSourceProtocol.swift */; };
+		18A0B50F2268A375000F9D2B /* CollectionViewDataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5022268A375000F9D2B /* CollectionViewDataSourceProvider.swift */; };
+		18A0B5102268A375000F9D2B /* JLXXCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5032268A375000F9D2B /* JLXXCollectionView.swift */; };
+		18A0B5112268A375000F9D2B /* CollectionViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5042268A375000F9D2B /* CollectionViewProtocols.swift */; };
+		18A0B5122268A375000F9D2B /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5062268A375000F9D2B /* DataSourceProtocol.swift */; };
+		18A0B5132268A375000F9D2B /* JLXXTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5072268A375000F9D2B /* JLXXTableViewController.swift */; };
+		18A0B5152268A375000F9D2B /* DataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5092268A375000F9D2B /* DataSourceProvider.swift */; };
+		18A0B5162268A375000F9D2B /* JLXXTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B50A2268A375000F9D2B /* JLXXTableView.swift */; };
+		18A0B5172268A375000F9D2B /* TableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B50B2268A375000F9D2B /* TableViewProtocols.swift */; };
+		18A0B51A2269488F000F9D2B /* MyTableviewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B5192269488F000F9D2B /* MyTableviewDataSource.swift */; };
+		18A0B52222694CD7000F9D2B /* JLXXTableViewNotXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B52122694CD7000F9D2B /* JLXXTableViewNotXibCell.swift */; };
+		18A0B52B226952D2000F9D2B /* JLXXTableViewXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B529226952D2000F9D2B /* JLXXTableViewXibCell.swift */; };
+		18A0B52C226952D2000F9D2B /* JLXXTableViewXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B52A226952D2000F9D2B /* JLXXTableViewXibCell.xib */; };
+		18A0B52E22695617000F9D2B /* TestTableViewControllerXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B52D22695617000F9D2B /* TestTableViewControllerXibCell.swift */; };
+		18A0B53022695A2F000F9D2B /* JLXXNavBarTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B52F22695A2F000F9D2B /* JLXXNavBarTransparent.swift */; };
+		18A0B53222695D1A000F9D2B /* MyCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B53122695D1A000F9D2B /* MyCollectionViewDataSource.swift */; };
+		18A0B53622698CC9000F9D2B /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B53522698CC9000F9D2B /* TestCollectionViewController.swift */; };
+		18A0B53B22698EC2000F9D2B /* JLXXCollectionViewNotXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B53A22698EC2000F9D2B /* JLXXCollectionViewNotXibCell.swift */; };
+		18A0B53D226990B0000F9D2B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B53C226990B0000F9D2B /* UIColor+Extension.swift */; };
+		18A0B53F226993A3000F9D2B /* TestCollectionViewControllerXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B53E226993A3000F9D2B /* TestCollectionViewControllerXibCell.swift */; };
+		18A0B54A22699765000F9D2B /* JLXXCollectionViewXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B54822699765000F9D2B /* JLXXCollectionViewXibCell.xib */; };
+		18A0B54B22699765000F9D2B /* JLXXCollectionViewXibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B54922699765000F9D2B /* JLXXCollectionViewXibCell.swift */; };
+		18A0B54E226999FE000F9D2B /* JLXXCollectionSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B54C226999FE000F9D2B /* JLXXCollectionSectionHeaderView.xib */; };
+		18A0B54F226999FE000F9D2B /* JLXXCollectionSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B54D226999FE000F9D2B /* JLXXCollectionSectionHeaderView.swift */; };
+		18A0B55222699CC1000F9D2B /* JLXXCollectionSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A0B55022699CC1000F9D2B /* JLXXCollectionSectionFooterView.xib */; };
+		18A0B55322699CC1000F9D2B /* JLXXCollectionSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0B55122699CC1000F9D2B /* JLXXCollectionSectionFooterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A0B4E92268A330000F9D2B /* JLXXListControllerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLXXListControllerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A0B4EC2268A330000F9D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18A0B4EE2268A330000F9D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18A0B4F12268A330000F9D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A0B4F32268A331000F9D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A0B4F62268A331000F9D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A0B4F82268A331000F9D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A0B5002268A375000F9D2B /* JLXXCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXCollectionViewController.swift; sourceTree = "<group>"; };
+		18A0B5012268A375000F9D2B /* CollectionViewDataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSourceProtocol.swift; sourceTree = "<group>"; };
+		18A0B5022268A375000F9D2B /* CollectionViewDataSourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSourceProvider.swift; sourceTree = "<group>"; };
+		18A0B5032268A375000F9D2B /* JLXXCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXCollectionView.swift; sourceTree = "<group>"; };
+		18A0B5042268A375000F9D2B /* CollectionViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewProtocols.swift; sourceTree = "<group>"; };
+		18A0B5062268A375000F9D2B /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
+		18A0B5072268A375000F9D2B /* JLXXTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXTableViewController.swift; sourceTree = "<group>"; };
+		18A0B5092268A375000F9D2B /* DataSourceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProvider.swift; sourceTree = "<group>"; };
+		18A0B50A2268A375000F9D2B /* JLXXTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXTableView.swift; sourceTree = "<group>"; };
+		18A0B50B2268A375000F9D2B /* TableViewProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewProtocols.swift; sourceTree = "<group>"; };
+		18A0B5192269488F000F9D2B /* MyTableviewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableviewDataSource.swift; sourceTree = "<group>"; };
+		18A0B52122694CD7000F9D2B /* JLXXTableViewNotXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLXXTableViewNotXibCell.swift; sourceTree = "<group>"; };
+		18A0B529226952D2000F9D2B /* JLXXTableViewXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLXXTableViewXibCell.swift; sourceTree = "<group>"; };
+		18A0B52A226952D2000F9D2B /* JLXXTableViewXibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JLXXTableViewXibCell.xib; sourceTree = "<group>"; };
+		18A0B52D22695617000F9D2B /* TestTableViewControllerXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewControllerXibCell.swift; sourceTree = "<group>"; };
+		18A0B52F22695A2F000F9D2B /* JLXXNavBarTransparent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLXXNavBarTransparent.swift; sourceTree = "<group>"; };
+		18A0B53122695D1A000F9D2B /* MyCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		18A0B53522698CC9000F9D2B /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		18A0B53A22698EC2000F9D2B /* JLXXCollectionViewNotXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLXXCollectionViewNotXibCell.swift; sourceTree = "<group>"; };
+		18A0B53C226990B0000F9D2B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		18A0B53E226993A3000F9D2B /* TestCollectionViewControllerXibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewControllerXibCell.swift; sourceTree = "<group>"; };
+		18A0B54822699765000F9D2B /* JLXXCollectionViewXibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLXXCollectionViewXibCell.xib; sourceTree = "<group>"; };
+		18A0B54922699765000F9D2B /* JLXXCollectionViewXibCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXCollectionViewXibCell.swift; sourceTree = "<group>"; };
+		18A0B54C226999FE000F9D2B /* JLXXCollectionSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLXXCollectionSectionHeaderView.xib; sourceTree = "<group>"; };
+		18A0B54D226999FE000F9D2B /* JLXXCollectionSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXCollectionSectionHeaderView.swift; sourceTree = "<group>"; };
+		18A0B55022699CC1000F9D2B /* JLXXCollectionSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLXXCollectionSectionFooterView.xib; sourceTree = "<group>"; };
+		18A0B55122699CC1000F9D2B /* JLXXCollectionSectionFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLXXCollectionSectionFooterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A0B4E62268A330000F9D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A0B4E02268A330000F9D2B = {
+			isa = PBXGroup;
+			children = (
+				18A0B4EB2268A330000F9D2B /* JLXXListControllerSwift */,
+				18A0B4EA2268A330000F9D2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A0B4EA2268A330000F9D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B4E92268A330000F9D2B /* JLXXListControllerSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A0B4EB2268A330000F9D2B /* JLXXListControllerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B4FE2268A364000F9D2B /* ListController */,
+				18A0B51B226948CE000F9D2B /* Demo */,
+				18A0B4EC2268A330000F9D2B /* AppDelegate.swift */,
+				18A0B4EE2268A330000F9D2B /* ViewController.swift */,
+				18A0B52F22695A2F000F9D2B /* JLXXNavBarTransparent.swift */,
+				18A0B53C226990B0000F9D2B /* UIColor+Extension.swift */,
+				18A0B4F02268A330000F9D2B /* Main.storyboard */,
+				18A0B4F32268A331000F9D2B /* Assets.xcassets */,
+				18A0B4F52268A331000F9D2B /* LaunchScreen.storyboard */,
+				18A0B4F82268A331000F9D2B /* Info.plist */,
+			);
+			path = JLXXListControllerSwift;
+			sourceTree = "<group>";
+		};
+		18A0B4FE2268A364000F9D2B /* ListController */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B4FF2268A375000F9D2B /* CollectionView */,
+				18A0B5052268A375000F9D2B /* TableView */,
+			);
+			path = ListController;
+			sourceTree = "<group>";
+		};
+		18A0B4FF2268A375000F9D2B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B5042268A375000F9D2B /* CollectionViewProtocols.swift */,
+				18A0B5012268A375000F9D2B /* CollectionViewDataSourceProtocol.swift */,
+				18A0B5022268A375000F9D2B /* CollectionViewDataSourceProvider.swift */,
+				18A0B5032268A375000F9D2B /* JLXXCollectionView.swift */,
+				18A0B5002268A375000F9D2B /* JLXXCollectionViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		18A0B5052268A375000F9D2B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B50B2268A375000F9D2B /* TableViewProtocols.swift */,
+				18A0B5062268A375000F9D2B /* DataSourceProtocol.swift */,
+				18A0B5092268A375000F9D2B /* DataSourceProvider.swift */,
+				18A0B50A2268A375000F9D2B /* JLXXTableView.swift */,
+				18A0B5072268A375000F9D2B /* JLXXTableViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		18A0B51B226948CE000F9D2B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B53422695D40000F9D2B /* CollectionView */,
+				18A0B53322695D31000F9D2B /* TableView */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		18A0B51C226948F9000F9D2B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B52122694CD7000F9D2B /* JLXXTableViewNotXibCell.swift */,
+				18A0B529226952D2000F9D2B /* JLXXTableViewXibCell.swift */,
+				18A0B52A226952D2000F9D2B /* JLXXTableViewXibCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18A0B53322695D31000F9D2B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B5192269488F000F9D2B /* MyTableviewDataSource.swift */,
+				18A0B53722698DFE000F9D2B /* Controller */,
+				18A0B51C226948F9000F9D2B /* Cells */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		18A0B53422695D40000F9D2B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B53122695D1A000F9D2B /* MyCollectionViewDataSource.swift */,
+				18A0B53822698E0B000F9D2B /* Controller */,
+				18A0B53922698E36000F9D2B /* Cells */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		18A0B53722698DFE000F9D2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B52D22695617000F9D2B /* TestTableViewControllerXibCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A0B53822698E0B000F9D2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B53522698CC9000F9D2B /* TestCollectionViewController.swift */,
+				18A0B53E226993A3000F9D2B /* TestCollectionViewControllerXibCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18A0B53922698E36000F9D2B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18A0B53A22698EC2000F9D2B /* JLXXCollectionViewNotXibCell.swift */,
+				18A0B54922699765000F9D2B /* JLXXCollectionViewXibCell.swift */,
+				18A0B54822699765000F9D2B /* JLXXCollectionViewXibCell.xib */,
+				18A0B54D226999FE000F9D2B /* JLXXCollectionSectionHeaderView.swift */,
+				18A0B54C226999FE000F9D2B /* JLXXCollectionSectionHeaderView.xib */,
+				18A0B55122699CC1000F9D2B /* JLXXCollectionSectionFooterView.swift */,
+				18A0B55022699CC1000F9D2B /* JLXXCollectionSectionFooterView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A0B4E82268A330000F9D2B /* JLXXListControllerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A0B4FB2268A331000F9D2B /* Build configuration list for PBXNativeTarget "JLXXListControllerSwift" */;
+			buildPhases = (
+				18A0B4E52268A330000F9D2B /* Sources */,
+				18A0B4E62268A330000F9D2B /* Frameworks */,
+				18A0B4E72268A330000F9D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLXXListControllerSwift;
+			productName = JLXXListControllerSwift;
+			productReference = 18A0B4E92268A330000F9D2B /* JLXXListControllerSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A0B4E12268A330000F9D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Restver;
+				TargetAttributes = {
+					18A0B4E82268A330000F9D2B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 18A0B4E42268A330000F9D2B /* Build configuration list for PBXProject "JLXXListControllerSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A0B4E02268A330000F9D2B;
+			productRefGroup = 18A0B4EA2268A330000F9D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A0B4E82268A330000F9D2B /* JLXXListControllerSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A0B4E72268A330000F9D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0B4F72268A331000F9D2B /* LaunchScreen.storyboard in Resources */,
+				18A0B54E226999FE000F9D2B /* JLXXCollectionSectionHeaderView.xib in Resources */,
+				18A0B52C226952D2000F9D2B /* JLXXTableViewXibCell.xib in Resources */,
+				18A0B54A22699765000F9D2B /* JLXXCollectionViewXibCell.xib in Resources */,
+				18A0B4F42268A331000F9D2B /* Assets.xcassets in Resources */,
+				18A0B4F22268A330000F9D2B /* Main.storyboard in Resources */,
+				18A0B55222699CC1000F9D2B /* JLXXCollectionSectionFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A0B4E52268A330000F9D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0B53F226993A3000F9D2B /* TestCollectionViewControllerXibCell.swift in Sources */,
+				18A0B53D226990B0000F9D2B /* UIColor+Extension.swift in Sources */,
+				18A0B53222695D1A000F9D2B /* MyCollectionViewDataSource.swift in Sources */,
+				18A0B53022695A2F000F9D2B /* JLXXNavBarTransparent.swift in Sources */,
+				18A0B53B22698EC2000F9D2B /* JLXXCollectionViewNotXibCell.swift in Sources */,
+				18A0B5122268A375000F9D2B /* DataSourceProtocol.swift in Sources */,
+				18A0B53622698CC9000F9D2B /* TestCollectionViewController.swift in Sources */,
+				18A0B52B226952D2000F9D2B /* JLXXTableViewXibCell.swift in Sources */,
+				18A0B52E22695617000F9D2B /* TestTableViewControllerXibCell.swift in Sources */,
+				18A0B5172268A375000F9D2B /* TableViewProtocols.swift in Sources */,
+				18A0B55322699CC1000F9D2B /* JLXXCollectionSectionFooterView.swift in Sources */,
+				18A0B54B22699765000F9D2B /* JLXXCollectionViewXibCell.swift in Sources */,
+				18A0B5112268A375000F9D2B /* CollectionViewProtocols.swift in Sources */,
+				18A0B52222694CD7000F9D2B /* JLXXTableViewNotXibCell.swift in Sources */,
+				18A0B5152268A375000F9D2B /* DataSourceProvider.swift in Sources */,
+				18A0B51A2269488F000F9D2B /* MyTableviewDataSource.swift in Sources */,
+				18A0B5102268A375000F9D2B /* JLXXCollectionView.swift in Sources */,
+				18A0B50F2268A375000F9D2B /* CollectionViewDataSourceProvider.swift in Sources */,
+				18A0B4EF2268A330000F9D2B /* ViewController.swift in Sources */,
+				18A0B50E2268A375000F9D2B /* CollectionViewDataSourceProtocol.swift in Sources */,
+				18A0B50D2268A375000F9D2B /* JLXXCollectionViewController.swift in Sources */,
+				18A0B5132268A375000F9D2B /* JLXXTableViewController.swift in Sources */,
+				18A0B54F226999FE000F9D2B /* JLXXCollectionSectionHeaderView.swift in Sources */,
+				18A0B4ED2268A330000F9D2B /* AppDelegate.swift in Sources */,
+				18A0B5162268A375000F9D2B /* JLXXTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18A0B4F02268A330000F9D2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A0B4F12268A330000F9D2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A0B4F52268A331000F9D2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A0B4F62268A331000F9D2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A0B4F92268A331000F9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18A0B4FA2268A331000F9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A0B4FC2268A331000F9D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28LSEG3DS;
+				INFOPLIST_FILE = JLXXListControllerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = restver.JLXXListControllerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A0B4FD2268A331000F9D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D28LSEG3DS;
+				INFOPLIST_FILE = JLXXListControllerSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = restver.JLXXListControllerSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A0B4E42268A330000F9D2B /* Build configuration list for PBXProject "JLXXListControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A0B4F92268A331000F9D2B /* Debug */,
+				18A0B4FA2268A331000F9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A0B4FB2268A331000F9D2B /* Build configuration list for PBXNativeTarget "JLXXListControllerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A0B4FC2268A331000F9D2B /* Debug */,
+				18A0B4FD2268A331000F9D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A0B4E12268A330000F9D2B /* Project object */;
+}
